@@ -21,3 +21,57 @@ nav a{color:#fff;text-decoration:none;margin:0 14px}
 table{width:100%;border-collapse:collapse;background:rgba(255,255,255,.05)}
 th,td{padding:18px;border-bottom:1px solid rgba(255,255,255,.08)}
 footer{text-align:center;padding:30px}
+
+/* ===== RULES PAGE ===== */
+
+.rules-container{
+    max-width:1200px;
+    margin:120px auto 80px auto;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.rules-container h1{
+    text-align:center;
+    font-size:4rem;
+    margin-bottom:50px;
+    color:white;
+}
+
+.rule-card{
+    width:100%;
+    max-width:900px;
+    background:rgba(15,20,30,.85);
+    border:1px solid rgba(88,101,242,.25);
+    border-radius:20px;
+    padding:30px;
+    margin-bottom:25px;
+    text-align:center;
+    backdrop-filter:blur(10px);
+}
+
+.rule-card h2{
+    color:#4da3ff;
+    margin-bottom:15px;
+}
+
+.rule-card ul{
+    list-style:none;
+    padding:0;
+}
+
+.rule-card li{
+    margin:8px 0;
+}
+
+.warning{
+    border-left:5px solid #ff4444;
+}
+
+.important{
+    color:#ffd700;
+    font-weight:bold;
+    margin-top:15px;
+}
