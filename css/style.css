@@ -137,21 +137,22 @@ transform:translateY(-2px);
 
 position:relative;
 
-height:950px;
+height:900px;
 
-background:
+background-image:
 linear-gradient(
-rgba(0,0,0,.15),
+rgba(0,0,0,.25),
 rgba(0,0,0,.75)
 ),
 url('../assets/leaderboard-bg.jpg');
 
 background-size:cover;
 background-position:center;
+background-repeat:no-repeat;
 
 overflow:hidden;
-}
 
+}
 .hero-content{
 
 position:absolute;
