@@ -139,7 +139,6 @@ background:rgba(88,101,242,.15);
 }
 
 .leaderboard-hero{
-
 height:55vh;
 
 background:
@@ -155,34 +154,25 @@ background-position:center;
 display:flex;
 justify-content:center;
 align-items:center;
-
 text-align:center;
 }
 
 .leaderboard-overlay h1{
-
 font-size:5rem;
-
 font-weight:700;
-
-text-shadow:
-0 0 25px #5865F2;
-
+text-shadow:0 0 25px #5865F2;
 }
 
 .leaderboard-overlay p{
-
 font-size:1.3rem;
-
-margin-top:10px;
-
 color:#d8d8d8;
-
 }
 
 .podium{
 
-margin-top:40px;
+max-width:1000px;
+
+margin:50px auto;
 
 display:flex;
 
@@ -190,47 +180,62 @@ justify-content:center;
 
 align-items:flex-end;
 
-gap:20px;
+gap:25px;
 
-position:relative;
-
-z-index:5;
 }
 
 .podium-card{
 
-width:260px;
-
-padding:25px;
-
 background:
-rgba(10,10,20,.85);
+rgba(15,15,25,.85);
 
 backdrop-filter:
-blur(12px);
+blur(15px);
 
 border-radius:20px;
 
+padding:25px;
+
 text-align:center;
 
-box-shadow:
-0 0 25px rgba(88,101,242,.4);
+width:260px;
+
+transition:.3s;
+
+}
+
+.podium-card:hover{
+
+transform:
+translateY(-10px);
 
 }
 
 .first{
+
 height:280px;
+
 border:2px solid gold;
+
+box-shadow:
+0 0 30px gold;
+
 }
 
 .second{
-height:230px;
+
+height:220px;
+
 border:2px solid silver;
+
 }
 
 .third{
-height:210px;
+
+height:220px;
+
 border:2px solid #cd7f32;
+
 }
 
 .leaderboard-overlay{
