@@ -15,8 +15,8 @@ nav a{color:#fff;text-decoration:none;margin:0 14px}
 .player{position:absolute;text-align:center}
 .player h2{font-size:3rem}.player span{color:#4da3ff}
 .player-1{top:45%;left:50%;transform:translateX(-50%)}
-.player-2{top:52%;left:25%}
-.player-3{top:52%;left:75%}
+.player-2{top:52%;left:30%}
+.player-3{top:52%;left:70%}
 .ranking{max-width:1200px;margin:auto;padding:40px}
 table{width:100%;border-collapse:collapse;background:rgba(255,255,255,.05)}
 th,td{padding:18px;border-bottom:1px solid rgba(255,255,255,.08)}
