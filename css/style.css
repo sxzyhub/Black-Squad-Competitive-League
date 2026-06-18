@@ -125,22 +125,97 @@ box-shadow:
 }
 
 .leaderboard-hero{
-height:55vh;
+
+position:relative;
+
+height:80vh;
 
 background:
 linear-gradient(
-rgba(0,0,0,.35),
-rgba(0,0,0,.75)
+rgba(0,0,0,.25),
+rgba(0,0,0,.55)
 ),
 url('../assets/leaderboard-bg.jpg');
 
 background-size:cover;
 background-position:center;
 
-display:flex;
-justify-content:center;
-align-items:center;
+overflow:hidden;
+}
+
+.podium-labels{
+
+position:absolute;
+
+left:0;
+top:0;
+
+width:100%;
+height:100%;
+}
+
+.rank-player{
+
+position:absolute;
+
 text-align:center;
+
+color:white;
+
+text-shadow:
+0 0 15px rgba(0,0,0,.9);
+}
+
+.rank-player h2{
+
+font-size:2.4rem;
+
+font-weight:700;
+
+margin-bottom:5px;
+}
+
+.rank-player p{
+
+font-size:1.3rem;
+
+color:#4f7cff;
+}
+
+/* 1ER */
+
+.rank1{
+
+left:50%;
+
+top:67%;
+
+transform:
+translate(-50%,-50%);
+}
+
+/* 2EME */
+
+.rank2{
+
+left:28%;
+
+top:74%;
+
+transform:
+translate(-50%,-50%);
+}
+
+/* 3EME */
+
+.rank3{
+
+left:72%;
+
+top:74%;
+
+transform:
+translate(-50%,-50%);
 }
 
 .leaderboard-overlay h1{
@@ -152,76 +227,6 @@ text-shadow:0 0 25px #5865F2;
 .leaderboard-overlay p{
 font-size:1.3rem;
 color:#d8d8d8;
-}
-
-.podium{
-
-max-width:1000px;
-
-margin:50px auto;
-
-display:flex;
-
-justify-content:center;
-
-align-items:flex-end;
-
-gap:25px;
-
-}
-
-.podium-card{
-
-background:
-rgba(15,15,25,.85);
-
-backdrop-filter:
-blur(15px);
-
-border-radius:20px;
-
-padding:25px;
-
-text-align:center;
-
-width:260px;
-
-transition:.3s;
-
-}
-
-.podium-card:hover{
-
-transform:
-translateY(-10px);
-
-}
-
-.first{
-
-height:280px;
-
-border:2px solid gold;
-
-box-shadow:
-0 0 30px gold;
-
-}
-
-.second{
-
-height:220px;
-
-border:2px solid silver;
-
-}
-
-.third{
-
-height:220px;
-
-border:2px solid #cd7f32;
-
 }
 
 .leaderboard-overlay{
