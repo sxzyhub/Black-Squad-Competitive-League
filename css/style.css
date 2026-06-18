@@ -105,36 +105,22 @@ border:2px solid #cd7f32;
 
 .ranking-table{
 
-background:rgba(255,255,255,.08);
+max-width:1100px;
 
-padding:25px;
+margin:60px auto;
+
+background:
+rgba(15,15,25,.8);
+
+backdrop-filter:
+blur(15px);
 
 border-radius:20px;
 
-backdrop-filter:blur(10px);
+padding:30px;
 
-}
-
-.ranking-table table{
-
-width:100%;
-
-border-collapse:collapse;
-
-}
-
-.ranking-table th,
-.ranking-table td{
-
-padding:15px;
-
-border-bottom:1px solid rgba(255,255,255,.1);
-
-}
-
-.ranking-table tr:hover{
-
-background:rgba(88,101,242,.15);
+box-shadow:
+0 0 25px rgba(88,101,242,.2);
 
 }
 
