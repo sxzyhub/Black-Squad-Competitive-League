@@ -140,7 +140,7 @@ background:rgba(88,101,242,.15);
 
 .leaderboard-hero{
 
-height:70vh;
+height:55vh;
 
 background:
 linear-gradient(
@@ -182,7 +182,7 @@ color:#d8d8d8;
 
 .podium{
 
-margin-top:-120px;
+margin-top:40px;
 
 display:flex;
 
@@ -231,4 +231,10 @@ border:2px solid silver;
 .third{
 height:210px;
 border:2px solid #cd7f32;
+}
+
+.leaderboard-overlay{
+
+margin-top:-60px;
+
 }
