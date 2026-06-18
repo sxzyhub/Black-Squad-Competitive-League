@@ -1,0 +1,1 @@
+Ajoute ton image de fond personnalisée dans assets/background.jpg puis adapte le CSS si souhaité.

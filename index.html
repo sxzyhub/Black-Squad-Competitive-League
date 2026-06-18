@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BSCL V4 Final</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<img src="assets/logo.png" class="logo">
+<div class="brand">BLACK SQUAD COMPETITIVE LEAGUE</div>
+<nav id="menu">
+<a onclick="showTab('news')">News</a>
+<a onclick="showTab('leaderboard')">Leaderboard</a>
+<a onclick="showTab('rules')">Rules</a>
+<a onclick="showTab('join')">Join Us</a>
+</nav>
+<div class="hamburger" onclick="toggleMenu()">☰</div>
+<a class="discord-btn" href="https://discord.gg/qyc3xgsa" target="_blank">Join Discord</a>
+</header>
+
+<section class="hero">
+<h1>BLACK SQUAD</h1>
+<h2>COMPETITIVE LEAGUE</h2>
+<p>Play • Compete • Improve • Dominate</p>
+</section>
+
+<main>
+<section id="news" class="tab active"><div class="glass"><h2>Latest News</h2><p>Ajoute tes annonces ici.</p></div></section>
+<section id="leaderboard" class="tab"><div class="glass"><h2>Leaderboard</h2><table><tr><th>#</th><th>Player</th><th>ELO</th></tr><tr><td>🥇</td><td>Player1</td><td>2500</td></tr><tr><td>🥈</td><td>Player2</td><td>2400</td></tr><tr><td>🥉</td><td>Player3</td><td>2300</td></tr></table></div></section>
+<section id="rules" class="tab"><div class="glass"><h2>Rules</h2><ul><li>Respect all players</li><li>No cheating</li><li>No toxicity</li><li>Staff decisions are final</li></ul></div></section>
+<section id="join" class="tab"><div class="glass"><h2>Join Us</h2><a class="discord-btn" href="https://discord.gg/qyc3xgsa">Join Discord</a></div></section>
+</main>
+<footer>BSCL © 2025</footer>
+<script src="js/script.js"></script>
+</body></html>
