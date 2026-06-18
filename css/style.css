@@ -1,0 +1,14 @@
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Rajdhani',sans-serif}
+:root{--primary:#5865F2}
+body{background:#05070d;color:#fff}
+header{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:rgba(0,0,0,.55);backdrop-filter:blur(10px);z-index:1000}
+.logo{height:70px}
+nav ul{display:flex;gap:25px;list-style:none}
+nav a{color:#fff;text-decoration:none}
+.discord-btn,.main-btn{background:var(--primary);color:#fff;padding:12px 20px;border-radius:10px;text-decoration:none;box-shadow:0 0 20px rgba(88,101,242,.8)}
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)),url('../assets/background.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;text-align:center}
+.hero h1{font-size:6rem}.hero h2{color:#4f7cff}
+.home-section{padding:60px;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:rgba(255,255,255,.05);padding:25px;border-radius:20px;backdrop-filter:blur(15px)}
+footer{text-align:center;padding:25px}
