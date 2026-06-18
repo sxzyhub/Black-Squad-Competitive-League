@@ -32,74 +32,58 @@ font-size:4rem;
 margin-bottom:60px;
 
 text-shadow:0 0 20px #5865F2;
-
+  
 }
+  .player{
 
-.podium{
-
-display:flex;
-
-justify-content:center;
-
-align-items:flex-end;
-
-gap:25px;
-
-margin-bottom:60px;
-
-}
-
-.player{
-
-background:rgba(255,255,255,.08);
-
-backdrop-filter:blur(10px);
-
-padding:25px;
-
-border-radius:20px;
+position:absolute;
 
 text-align:center;
 
-width:250px;
-
-box-shadow:0 0 20px rgba(88,101,242,.3);
+color:white;
 
 }
 
 .player h2{
 
-margin:10px 0;
-
-}
-
-.rank{
-
 font-size:3rem;
 
+font-weight:700;
 }
 
-.first{
+.player span{
 
-height:300px;
+font-size:1.8rem;
 
-border:2px solid gold;
-
+color:#4f7cff;
 }
 
-.second{
+.player-1{
 
-height:250px;
+left:50%;
 
-border:2px solid silver;
+top:500px;
 
+transform:translateX(-50%);
 }
 
-.third{
+.player-2{
 
-height:220px;
+left:28%;
 
-border:2px solid #cd7f32;
+top:560px;
+
+transform:translateX(-50%);
+}
+
+.player-3{
+
+left:72%;
+
+top:560px;
+
+transform:translateX(-50%);
+}
 
 }
 
@@ -128,19 +112,53 @@ box-shadow:
 
 position:relative;
 
-height:80vh;
+height:900px;
 
 background:
 linear-gradient(
-rgba(0,0,0,.25),
-rgba(0,0,0,.55)
+rgba(0,0,0,.2),
+rgba(0,0,0,.7)
 ),
-url('../assets/leaderboard-bg.jpg');
+url('assets/leaderboard-bg.jpg');
 
 background-size:cover;
 background-position:center;
 
 overflow:hidden;
+}
+
+.hero-content{
+
+position:absolute;
+
+top:150px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+text-align:center;
+}
+
+.hero-content h1{
+
+font-size:6rem;
+
+font-weight:700;
+
+color:white;
+
+text-shadow:
+0 0 30px #4f7cff;
+}
+
+.hero-content p{
+
+font-size:1.5rem;
+
+letter-spacing:3px;
+
+color:#4f7cff;
 }
 
 .podium-labels{
@@ -233,4 +251,59 @@ color:#d8d8d8;
 
 margin-top:-60px;
 
+}
+
+.ranking-container{
+
+max-width:1200px;
+
+margin:auto;
+
+margin-top:-60px;
+
+padding-bottom:100px;
+}
+
+.ranking-table{
+
+width:100%;
+
+border-collapse:collapse;
+
+background:
+rgba(0,0,0,.55);
+
+backdrop-filter:blur(10px);
+
+border-radius:15px;
+
+overflow:hidden;
+}
+
+.ranking-table th{
+
+padding:25px;
+
+font-size:1.2rem;
+
+background:
+rgba(15,20,40,.9);
+
+color:#cfd8ff;
+}
+
+.ranking-table td{
+
+padding:22px;
+
+border-bottom:
+1px solid rgba(255,255,255,.08);
+
+font-size:1.1rem;
+}
+
+.ranking-table tr:hover{
+
+background:
+rgba(79,124,255,.12);
 }
