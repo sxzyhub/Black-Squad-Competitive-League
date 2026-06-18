@@ -12,3 +12,128 @@ nav a{color:#fff;text-decoration:none}
 .home-section{padding:60px;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
 .card{background:rgba(255,255,255,.05);padding:25px;border-radius:20px;backdrop-filter:blur(15px)}
 footer{text-align:center;padding:25px}
+
+.leaderboard-container{
+
+padding:120px 40px;
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.leaderboard-title{
+
+text-align:center;
+
+font-size:4rem;
+
+margin-bottom:60px;
+
+text-shadow:0 0 20px #5865F2;
+
+}
+
+.podium{
+
+display:flex;
+
+justify-content:center;
+
+align-items:flex-end;
+
+gap:25px;
+
+margin-bottom:60px;
+
+}
+
+.player{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(10px);
+
+padding:25px;
+
+border-radius:20px;
+
+text-align:center;
+
+width:250px;
+
+box-shadow:0 0 20px rgba(88,101,242,.3);
+
+}
+
+.player h2{
+
+margin:10px 0;
+
+}
+
+.rank{
+
+font-size:3rem;
+
+}
+
+.first{
+
+height:300px;
+
+border:2px solid gold;
+
+}
+
+.second{
+
+height:250px;
+
+border:2px solid silver;
+
+}
+
+.third{
+
+height:220px;
+
+border:2px solid #cd7f32;
+
+}
+
+.ranking-table{
+
+background:rgba(255,255,255,.08);
+
+padding:25px;
+
+border-radius:20px;
+
+backdrop-filter:blur(10px);
+
+}
+
+.ranking-table table{
+
+width:100%;
+
+border-collapse:collapse;
+
+}
+
+.ranking-table th,
+.ranking-table td{
+
+padding:15px;
+
+border-bottom:1px solid rgba(255,255,255,.1);
+
+}
+
+.ranking-table tr:hover{
+
+background:rgba(88,101,242,.15);
+
+}
