@@ -134,26 +134,21 @@ transform:translateY(-2px);
 /* ========================= */
 
 .leaderboard-hero{
+    position:relative;
+    height:900px;
 
-position:relative;
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,.25),
+        rgba(0,0,0,.75)
+    ),
+    url('../assets/leaderboard-bg.jpg');
 
-height:900px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 
-background-image:
-linear-gradient(
-rgba(0,0,0,.25),
-rgba(0,0,0,.75)
-),
-url('../assets/leaderboard-bg.jpg');
-
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-
-}
-
-overflow:hidden;
-
+    overflow:hidden;
 }
 .hero-content{
 
@@ -166,28 +161,27 @@ left:50%;
 transform:translateX(-50%);
 
 text-align:center;
+  
+}
+
+.hero-content{
+    position:absolute;
+    top:120px;
+    left:50%;
+    transform:translateX(-50%);
+    text-align:center;
+    z-index:10;
 }
 
 .hero-content h1{
-
-font-size:7rem;
-
-font-weight:700;
-
-text-shadow:
-0 0 35px #4f7cff;
-
+    font-size:5rem;
+    color:white;
+    text-shadow:0 0 25px #4da3ff;
 }
 
 .hero-content p{
-
-font-size:1.5rem;
-
-letter-spacing:3px;
-
-color:#4f7cff;
-
-margin-top:10px;
+    color:#6aa8ff;
+    font-size:1.2rem;
 }
 
 /* ========================= */
@@ -195,66 +189,36 @@ margin-top:10px;
 /* ========================= */
 
 .player{
-
-position:absolute;
-
-text-align:center;
-
-text-shadow:
-0 0 20px rgba(0,0,0,.9);
-
+    position:absolute;
+    text-align:center;
+    color:white;
+    z-index:20;
 }
 
 .player h2{
-
-font-size:3rem;
-
-font-weight:700;
-
+    font-size:2.5rem;
+    margin:0;
 }
 
 .player span{
-
-font-size:1.8rem;
-
-color:#4f7cff;
-
+    color:#4da3ff;
+    font-size:1.4rem;
 }
-
-/* 1 */
 
 .player-1{
-
-left:50%;
-
-top:560px;
-
-transform:
-translateX(-50%);
+    top:360px;
+    left:50%;
+    transform:translateX(-50%);
 }
-
-/* 2 */
 
 .player-2{
-
-left:28%;
-
-top:620px;
-
-transform:
-translateX(-50%);
+    top:420px;
+    left:28%;
 }
 
-/* 3 */
-
 .player-3{
-
-left:72%;
-
-top:620px;
-
-transform:
-translateX(-50%);
+    top:420px;
+    right:28%;
 }
 
 /* ========================= */
