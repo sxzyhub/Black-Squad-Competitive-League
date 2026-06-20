@@ -110,3 +110,24 @@ footer{text-align:center;padding:30px}
 
     text-shadow:0 0 25px rgba(88,101,242,.8);
 }
+
+.season-hero{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.25),
+        rgba(0,0,0,.75)
+    ),
+    url('../assets/season-bg.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    position:relative;
+}
+
+.season-hero h1{
+    display:none;
+}
