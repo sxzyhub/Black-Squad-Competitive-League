@@ -10,7 +10,7 @@ nav a{color:#fff;text-decoration:none;margin:0 14px}
 .section{padding:80px 40px}
 .card{background:rgba(255,255,255,.05);border-radius:20px;padding:25px;backdrop-filter:blur(10px)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-.leaderboard-hero{position:relative;height:100vh;background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.65)),url('../assets/leaderboard-bg.jpg');background-size:cover;background-position:center}
+.leaderboard-hero{position:relative;height:100vh;background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.35)),url('../assets/leaderboard-bg.jpg');background-size:cover;background-position:center}
 .hero-content{position:absolute;top:120px;left:50%;transform:translateX(-50%);text-align:center}
 .player{position:absolute;text-align:center}
 .player h2{font-size:3rem}.player span{color:#4da3ff}
