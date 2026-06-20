@@ -188,3 +188,9 @@ footer{text-align:center;padding:30px}
 
     letter-spacing:1px;
 }
+
+/* HOME TITLE FONT */
+
+.hero-content h1{
+    font-family:'Orbitron', sans-serif;
+}
