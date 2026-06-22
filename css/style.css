@@ -329,3 +329,26 @@ nav a:hover{
 
     font-weight:bold;
 }
+
+.minor-page{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.55),
+        rgba(0,0,0,.80)
+    ),
+    url('../assets/minor1-bg.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.minor-color{
+    color:#4da3ff;
+}
