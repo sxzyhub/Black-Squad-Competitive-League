@@ -245,5 +245,17 @@ nav{
     transform:translateX(-50%);
 
     display:flex;
+    align-items:center;
     gap:35px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#4da3ff;
 }
