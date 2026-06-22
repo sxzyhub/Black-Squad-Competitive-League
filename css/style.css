@@ -236,12 +236,10 @@ footer{text-align:center;padding:30px}
 /* HOME TITLE FONT */
 
 .hero-content h1{
-    font-family:'Orbitron', sans-serif;
-    font-size:3.8rem;
+    font-family:'Rajdhani', sans-serif;
+    font-size:4rem;
     font-weight:700;
-
-    text-shadow:
-        0 0 8px rgba(77,163,255,.4);
+    text-shadow:0 0 15px rgba(77,163,255,.4);
 }
 
 nav{
