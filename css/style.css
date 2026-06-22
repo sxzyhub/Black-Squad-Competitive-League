@@ -279,58 +279,20 @@ nav a:hover{
 }
 
 .major-page{
-    min-height:100vh;
+    height:100vh;
 
-    background:
-    linear-gradient(
-        rgba(0,0,0,.55),
-        rgba(0,0,0,.80)
-    ),
-    url('../assets/major1-bg.jpg');
+    background:url('../assets/major1-bg.jpg');
 
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.announcement-box{
-    background:none;
-    border:none;
-    backdrop-filter:none;
-    box-shadow:none;
-
-    max-width:800px;
-    padding:0;
-
-    text-align:center;
-}
-
-.announcement-box h1{
-    font-size:5rem;
-    color:white;
-
-    margin-bottom:15px;
-}
-
-.announcement-subtitle{
-    color:#ff5a5a;
-
-    font-size:1.5rem;
-
-    margin-bottom:30px;
-
-    font-weight:bold;
 }
 
 .minor-page{
     height:100vh;
-    overflow:hidden;
 
     background:url('../assets/minor1.png');
+
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -421,9 +383,8 @@ nav a:hover{
     display:block;
     cursor:pointer;
 
-    /* Pour régler les positions */
-   background:rgba(255,0,0,.3);
-border:2px solid red;
+    background:transparent;
+    border:none;
 }
 
 /* Minor 1 */
