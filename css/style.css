@@ -282,20 +282,22 @@ nav a:hover{
     height:100vh;
 
     background:url('../assets/major1-bg.jpg');
-
-    background-size:cover;
+    background-size:90%;
     background-position:center;
     background-repeat:no-repeat;
+
+    background-color:#05070d;
 }
 
 .minor-page{
     height:100vh;
 
     background:url('../assets/minor1-bg.jpg');
-
-    background-size:cover;
+    background-size:90%;
     background-position:center;
     background-repeat:no-repeat;
+
+    background-color:#05070d;
 }
 .minor-color{
     color:#4da3ff;
