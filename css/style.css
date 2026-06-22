@@ -8,42 +8,33 @@ header{
     width:100%;
 
     display:flex;
-    justify-content:center;
     align-items:center;
+    justify-content:space-between;
 
     padding:18px 40px;
     background:rgba(0,0,0,.75);
+
     z-index:1000;
 }
 
 .logo{
+    height:60px;
+    width:auto;
     position:absolute;
     left:40px;
-    height:60px;
 }
 
 nav{
     display:flex;
-    gap:35px;
+    gap:30px;
+    margin:auto;
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    font-weight:600;
-    transition:0.3s;
-}
-
-nav a:hover{
-    color:#4da3ff;
-}
-/* Boutons réseaux à droite */
 .social-links{
     position:absolute;
     right:40px;
     display:flex;
-    align-items:center;
-    gap:18px;
+    gap:15px;
 }
 
 .social-icon{
