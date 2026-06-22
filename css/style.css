@@ -265,6 +265,21 @@ nav a{
     transition:0.3s;
 }
 
+.rules-hero{
+    height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.15),
+        rgba(0,0,0,.35)
+    ),
+    url('../assets/rules-bg.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
 nav a:hover{
     color:#4da3ff;
 }
