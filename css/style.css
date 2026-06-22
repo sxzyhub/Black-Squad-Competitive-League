@@ -283,7 +283,7 @@ nav a:hover{
     overflow:hidden;
 
     background:url('../assets/major2-bg.jpg');
-    background-size:90% auto;
+    background-size:100% auto;
     background-position:center;
     background-repeat:no-repeat;
 }
