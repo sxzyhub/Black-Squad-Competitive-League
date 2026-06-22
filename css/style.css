@@ -2,22 +2,63 @@
 *{margin:0;padding:0;box-sizing:border-box;font-family:Rajdhani,sans-serif}
 body{background:#05070d;color:#fff}
 header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-
     display:flex;
     align-items:center;
-
-    padding:18px 40px;
-    background:rgba(0,0,0,.75);
-
-    z-index:1000;
+    justify-content:center;
 }
 
-.logo{height:60px}
-nav a{color:#fff;text-decoration:none;margin:0 14px}
+.logo{
+    position:absolute;
+    left:40px;
+    height:60px;
+}
+
+nav{
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#4da3ff;
+}
+/* Boutons réseaux à droite */
+.social-links{
+    position:absolute;
+    right:40px;
+    display:flex;
+    gap:10px;
+}
+
+.social-links{
+    position:absolute;
+    right:40px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.social-icon{
+    color:white;
+    font-size:28px;
+    text-decoration:none;
+    transition:all 0.3s ease;
+}
+
+.social-icon:hover{
+    color:#4da3ff;
+    transform:translateY(-3px) scale(1.15);
+    text-shadow:
+        0 0 10px #4da3ff,
+        0 0 20px #4da3ff,
+        0 0 30px #4da3ff;
+}
 .discord-btn{background:#5865F2;padding:10px 18px;border-radius:8px;color:#fff;text-decoration:none}
 .hero{min-height:100vh;background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)),url('../assets/background.jpg');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;text-align:center}
 .hero h1{font-size:6rem;text-shadow:0 0 25px #4da3ff}
