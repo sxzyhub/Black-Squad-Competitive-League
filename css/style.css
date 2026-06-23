@@ -158,12 +158,13 @@ footer{text-align:center;padding:30px}
 
 .season-hero{
     height:100vh;
-    overflow:hidden;
 
     background:url('../assets/season2-bg.jpg');
-    background-size:100% auto;
-    background-position:center top;
+    background-size:contain;
+    background-position:center;
     background-repeat:no-repeat;
+
+    background-color:#000;
 }
 
 .hero-video{
