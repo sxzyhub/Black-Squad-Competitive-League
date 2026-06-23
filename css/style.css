@@ -157,24 +157,14 @@ footer{text-align:center;padding:30px}
 }
 
 .season-hero{
-    min-height:100vh;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
 
-    background:
-    linear-gradient(
-        rgba(0,0,0,.05),
-        rgba(0,0,0,.35)
-    ),
-    url('../assets/season2-bg.jpg');
-
+    background:url('../assets/season2-bg.jpg');
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-
-    position:relative;
-}
-
-.season-hero h1{
-    display:none;
 }
 
 .hero-video{
