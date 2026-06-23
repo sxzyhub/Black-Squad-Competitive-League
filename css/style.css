@@ -58,8 +58,8 @@ nav{
     width:100vw;
     height:100vh;
 
-    background:url('../assets/season2-bg.jpg');
-    background-size:100% 100%;
+    background:url('../assets/season3-bg.jpg');
+    background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 }
