@@ -397,33 +397,28 @@ nav a:hover{
 
 /* ZONES CLIQUABLES INVISIBLES */
 
-.season-hero{
-    position:relative;
-}
-
 .season-link{
     position:absolute;
-    display:block;
-    z-index:50;
+    z-index:9999;
 
-    background:rgba(255,0,0,.25);
-    cursor:pointer;
+    background:red !important;
+    opacity:0.6;
+
+    display:block;
 }
 
 /* Minor 1 */
 .minor-link{
-    top:405px;
-    left:255px;
-
-    width:255px;
-    height:165px;
+    top:400px;
+    left:250px;
+    width:250px;
+    height:180px;
 }
 
 /* Major 1 */
 .major-link{
-    top:405px;
-    left:535px;
-
-    width:275px;
-    height:165px;
+    top:400px;
+    left:530px;
+    width:280px;
+    height:180px;
 }
