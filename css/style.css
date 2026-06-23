@@ -54,17 +54,15 @@ nav{
 .section{padding:80px 40px}
 .card{background:rgba(255,255,255,.05);border-radius:20px;padding:25px;backdrop-filter:blur(10px)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-.season-hero{
-    width:100vw;
-    height:100vh;
-
-    background:url('../assets/season3-bg.jpg');
-    background-size:100% 100%;
-    background-position:center;
-    background-repeat:no-repeat;
+footer{
+    display:none;
 }
 
-footer{text-align:center;padding:30px}
+.season-hero{
+    width:100vw;
+    min-height:100vh;
+    background:url('../assets/season2-bg.jpg') center top / cover no-repeat;
+}
 
 /* ===== RULES PAGE ===== */
 
