@@ -401,32 +401,29 @@ nav a:hover{
     position:relative;
 }
 
-.season-click{
+.season-link{
     position:absolute;
     display:block;
+    z-index:50;
+
+    background:rgba(255,0,0,.25);
     cursor:pointer;
-
-    background:rgba(255,0,0,.3);
-border:2px solid red;
-
 }
 
-/* MINOR 1 */
-
+/* Minor 1 */
 .minor-link{
-    top:435px;
-    left:260px;
+    top:405px;
+    left:255px;
 
-    width:250px;
-    height:170px;
+    width:255px;
+    height:165px;
 }
 
-/* MAJOR 1 */
-
+/* Major 1 */
 .major-link{
-    top:435px;
-    left:540px;
+    top:405px;
+    left:535px;
 
-    width:280px;
-    height:170px;
+    width:275px;
+    height:165px;
 }
