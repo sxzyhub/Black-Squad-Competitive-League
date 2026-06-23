@@ -59,9 +59,11 @@ nav{
     overflow:hidden;
 
     background:url('../assets/leaderboard2-bg.jpg');
-    background-size:90% auto;
+    background-size:contain;
     background-position:center;
     background-repeat:no-repeat;
+
+    background-color:#0b0d12;
 }
 
 footer{text-align:center;padding:30px}
