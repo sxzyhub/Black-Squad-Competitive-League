@@ -416,7 +416,7 @@ border:2px solid red;
 
 .minor-link{
     top:485px;
-    left:310px;
+    left:315px;
 
     width:250px;
     height:170px;
@@ -425,8 +425,8 @@ border:2px solid red;
 /* MAJOR 1 */
 
 .major-link{
-    top:435px;
-    left:540px;
+    top:485px;
+    left:650px;
 
     width:280px;
     height:170px;
