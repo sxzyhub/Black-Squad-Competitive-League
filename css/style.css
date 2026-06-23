@@ -55,15 +55,14 @@ nav{
 .card{background:rgba(255,255,255,.05);border-radius:20px;padding:25px;backdrop-filter:blur(10px)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
 .leaderboard-page{
+    width:100vw;
     height:100vh;
     overflow:hidden;
 
     background:url('../assets/leaderboard2-bg.jpg');
-    background-size:contain;
+    background-size:100% 100%;
     background-position:center;
     background-repeat:no-repeat;
-
-    background-color:#0b0d12;
 }
 
 footer{text-align:center;padding:30px}
