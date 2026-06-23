@@ -408,8 +408,7 @@ nav a:hover{
     display:block;
     cursor:pointer;
 
-    background:rgba(255,0,0,.3);
-border:2px solid red;
+    background:transparent;
 }
 
 /* MINOR 1 */
