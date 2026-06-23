@@ -156,16 +156,6 @@ footer{
     text-shadow:0 0 25px rgba(88,101,242,.8);
 }
 
-.season-hero{
-    width:100vw;
-    min-height:100vh;
-
-    background:url('../assets/season2-bg.jpg');
-    background-size:cover;
-    background-position:center top;
-    background-repeat:no-repeat;
-}
-
 .hero-video{
     position:relative;
     width:100%;
