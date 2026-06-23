@@ -59,11 +59,14 @@ footer{
 }
 
 .season-hero{
-    width:100vw;
-    min-height:100vh;
-    background:url('../assets/season3-bg.jpg') center top / cover no-repeat;
-}
+    width:100%;
+    height:100vh;
 
+    background:url('../assets/season3-bg.jpg');
+    background-size:cover;
+    background-position:center top;
+    background-repeat:no-repeat;
+}
 /* ===== RULES PAGE ===== */
 
 .rules-container{
