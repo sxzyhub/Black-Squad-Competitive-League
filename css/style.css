@@ -394,3 +394,39 @@ nav a:hover{
     background-position:center;
     background-repeat:no-repeat;
 }
+
+/* ZONES CLIQUABLES INVISIBLES */
+
+.season-hero{
+    position:relative;
+}
+
+.season-click{
+    position:absolute;
+    display:block;
+    cursor:pointer;
+
+    background:rgba(255,0,0,.3);
+border:2px solid red;
+
+}
+
+/* MINOR 1 */
+
+.minor-link{
+    top:435px;
+    left:260px;
+
+    width:250px;
+    height:170px;
+}
+
+/* MAJOR 1 */
+
+.major-link{
+    top:435px;
+    left:540px;
+
+    width:280px;
+    height:170px;
+}
